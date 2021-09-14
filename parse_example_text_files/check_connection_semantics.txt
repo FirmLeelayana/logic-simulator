@@ -1,0 +1,8 @@
+D10 = and1.I1 # Unspecified output #;
+D10.Q = sw1.I1 # Switch input #;
+D10.Q = and1.I10 # Input doesn't exist #;
+D10.Q = and1.DATA # Input doesn't exist #;
+sw1.QBAR = and1.I1 # Output doesn't exist #;
+sw10 = and1.I1 # Use of undefined device #;
+sw1 = siggen1.I2;
+siggen1.QBAR = and1.I1;

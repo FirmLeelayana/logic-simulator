@@ -1,0 +1,7 @@
+CLOCK = AND (number_of_inputs:2) # Use of Reserved Keyword #;
+sw1 = SWITCH (initial_state:0);
+sw1 = SWITCH (initial_state:0) # Device Present #;
+siggen1 = SIGGEN (waveform:-_-);
+siggen1 = SIGGEN (waveform:-_-);
+SIGGEN = AND (number_of_inputs:2);
+waveform = AND (number_of_inputs:2);

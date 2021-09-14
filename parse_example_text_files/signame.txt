@@ -1,0 +1,11 @@
+# Input signals #
+nand1.I6;
+or2.I2;
+d2.CLK;
+
+# Output signals #
+d1.Q;
+d1.QBAR;
+sw2;
+nor4;
+siggen1;

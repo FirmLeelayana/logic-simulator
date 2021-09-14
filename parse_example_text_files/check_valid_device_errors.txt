@@ -1,0 +1,17 @@
+something ;
+SWITCH - ;
+SWITCH (- ;
+SWITCH (initial_state- ;
+SWITCH (initial_state:- ;
+SWITCH (initial_state:1- ;
+AND -;
+AND (-;
+AND(number_of_inputs-;
+AND (number_of_inputs:-;
+AND  (number_of_inputs  :  2-;
+CLOCK (-;
+SIGGEN asd;
+SIGGEN (-;
+SIGGEN (waveform-;
+SIGGEN (waveform:asd;
+SIGGEN (waveform:-_-some;

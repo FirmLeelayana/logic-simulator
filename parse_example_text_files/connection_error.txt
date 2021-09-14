@@ -1,0 +1,2 @@
+SW1 xor1.I1;
+SW2 = xor1.I2

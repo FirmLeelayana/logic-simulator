@@ -1,0 +1,6 @@
+CONNECT # Not Device Name #;
+and1 # Port absent for input device #;
+nor1.QBAR # Invalid port for input #;
+d1.I4 # Invalid port for output #;
+siggen1.I4 # Invalid port for output #;
+d1. 

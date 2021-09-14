@@ -1,0 +1,5 @@
+MONITOR {
+xor1;
+and1;
+siggen1;
+}

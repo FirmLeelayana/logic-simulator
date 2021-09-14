@@ -1,0 +1,2 @@
+CONNECT {
+SW1 = xor1.I1;

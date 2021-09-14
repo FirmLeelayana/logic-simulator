@@ -1,0 +1,27 @@
+# Example Definition File 3: Siggen Waveform #
+
+DEVICES {
+and1 = AND (number_of_inputs:2);
+nor1 = NOR(number_of_inputs:2);
+or1 = OR (number_of_inputs:2);
+sw1 = SWITCH (initial_state:1);
+sw2 = SWITCH (initial_state:1);
+siggen1 = SIGGEN (waveform:-_---_); #Siggen waveform#
+}
+
+CONNECT {
+sw1 = and1.I1;
+sw2 = nor1.I2;
+siggen1 = and1.I2;
+siggen1 = nor1.I1;
+and1 = or1.I1;
+nor1 = or1.I2;
+}
+
+MONITOR {
+or1;
+siggen1;
+nor1;
+}
+
+END

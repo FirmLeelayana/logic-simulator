@@ -1,0 +1,5 @@
+, = XOR;
+xor1 , XOR;
+xor1 XOR;
+sw1 = SWITCH (initial_state- ;
+XOR1 = XOR

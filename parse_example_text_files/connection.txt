@@ -1,0 +1,5 @@
+SW1 = xor1.I1;
+SW2 = xor1.I2;
+SW1 = and1.I1;
+SW2 = and1.I2;
+siggen1 = and1.I3;

@@ -1,0 +1,7 @@
+DEVICES {
+SW1 = SWITCH (initial_state:1);
+SW1 = SWITCH (initial_state:1);
+xor1  XOR;
+and1 = AND number_of_inputs:2);
+and1 = AND (initial_state:2);
+}

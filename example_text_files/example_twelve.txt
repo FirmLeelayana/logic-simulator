@@ -1,0 +1,5 @@
+DEVICES { # Comment 1 # # Comment 2 #
+xor1 = XOR;
+(number_of_inputs:2)    
+.I2  , @ # Something #   
+} 

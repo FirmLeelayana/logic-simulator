@@ -1,0 +1,9 @@
+XOR
+DTYPE
+AND (number_of_inputs:2)
+NAND (number_of_inputs:10)
+OR (number_of_inputs:3)
+NOR (number_of_inputs:3)
+SWITCH (initial_state:1)
+CLOCK (cycle:4)
+SIGGEN (waveform:-___-)

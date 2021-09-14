@@ -1,0 +1,8 @@
+sw10 # Use of undefined device #;
+D10 # Unspecified output #;
+SW1.Q # Invalid output #;
+D10.Q;
+D10.Q # Monitor present #;
+siggen1;
+siggen1;
+siggen1.Q;

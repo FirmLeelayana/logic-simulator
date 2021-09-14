@@ -1,0 +1,25 @@
+# Example Definition File 1: Single Bit Adder #
+
+DEVICES {
+xor1 = XOR;
+xor1 = XOR; # Semantic #
+and1 = AND number_of_inputs:1); # Syntatic #
+SW1 = SWITCH (initial_state:1) # Error Recovery + Syntatic Error #
+SW2 = SWITCH (initial_state:10); # Syntatic error #
+}
+
+CONNECT {
+SW1 = xor1.I120; # Syntatic #
+SW2 = xor1.I2;
+SW1 = .I1; #Syntatic#
+SW2 = and1.; #Syntatic#
+}
+
+MONITOR {
+xor1.QBAR; # Semantic, should not appear#
+and1; 
+}
+# Syntatic Error#
+EnD
+
+Something

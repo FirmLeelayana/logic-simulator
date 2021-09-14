@@ -1,0 +1,5 @@
+DEVICES {
+xor1 = XOR;
+(number_of_inputs:2)    
+.I2  , @ # Something #   
+} 

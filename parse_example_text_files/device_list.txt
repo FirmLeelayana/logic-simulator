@@ -1,0 +1,7 @@
+DEVICES {
+xor1 = XOR;
+clock1 = CLOCK(cycle:2);
+and1 = AND (number_of_inputs:2);
+SW1 = SWITCH (initial_state:1);
+siggen1 = SIGGEN(waveform:-);
+}

@@ -1,0 +1,20 @@
+DEVICES {
+xor1 = XOR;
+and1 = AND number_of_inputs:2)
+SW1 = SWITCHy (initial_state:1);
+SW2 = SWITCH (initial_state:1);
+}
+
+CONNECT {
+SW1 = xor1.I1;
+SW2 = xor1.I2;
+SW1 = and1.I1;
+SW2 = and1.I2;
+}
+
+MONITOR {
+xor1;
+and1;
+}
+
+END

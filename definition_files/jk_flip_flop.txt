@@ -1,0 +1,36 @@
+# Example Definition File 2: 
+JK Flip-Flop using D Type Device#
+
+DEVICES {
+CLOCK1 = CLOCK (cycle:2);
+NAND1 = NAND (number_of_inputs:2);
+NAND2 = NAND (number_of_inputs:2);
+NAND3 = NAND (number_of_inputs:2);
+SW1 = SWITCH (initial_state:1);
+SW2 = SWITCH (initial_state:0);
+SW3 = SWITCH (initial_state:0);
+SW4 = SWITCH (initial_state:0);
+D1 = DTYPE;
+}
+
+CONNECT {
+SW1 = NAND1.I2;
+SW2 = NAND2.I1;
+NAND1 = NAND3.I1;
+NAND2 = NAND3.I2;
+NAND3 = D1.DATA;
+CLOCK1 = D1.CLK;
+SW3 = D1.SET;
+SW4 = D1.CLEAR;
+D1.QBAR = NAND1.I1;
+D1.Q = NAND2.I2;
+}
+
+MONITOR {
+D1.Q;
+SW1;
+SW2;
+CLOCK1;
+}
+
+END

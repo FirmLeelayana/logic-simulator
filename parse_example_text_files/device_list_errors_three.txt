@@ -1,0 +1,3 @@
+DEVICES {
+and1 = AND(number_of_inputs:2);
+xor = XOR;
